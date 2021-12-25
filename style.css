@@ -162,7 +162,7 @@
       transition: all 0.3s ease;
       z-index: 99;
       height: 70vh;
-      font-size: 1.6rem;
+      font-size: 1rem;
       transition: all 0.3s ease;
     }
     #navbar__logo {
@@ -351,6 +351,7 @@
     justify-content: center;
     align-items: center;
     gap:20px;
+
   }
   .main__experience_item{
     text-align: center;
@@ -428,6 +429,7 @@
   
       .main__experience_log {
         display: flex;
+    margin-bottom: 40px;
         flex-direction: row;
       }
   }
@@ -474,6 +476,7 @@
     
    
   }
+
   
   @media screen and (max-width:962px) {
   
@@ -491,3 +494,20 @@
         flex-direction: column;
       }
     }
+      /* for small phones */
+
+  @media screen and (max-width: 303px) { 
+          
+    .navbar__ul{
+        width:280px;
+    }
+    
+}
+
+@media screen and (max-width: 503px) { 
+          
+    .navbar__ul{
+        width:350px;
+    }
+    
+}
